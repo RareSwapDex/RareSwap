@@ -9,8 +9,8 @@ import {
 } from '../connectors';
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
-export const FACTORY_ADDRESS = '0x9deeb73e971127b2634d7633182004380774451f';
-export const ROUTER_ADDRESS = '0xf8262a34300a3115dfcb9e46897746673ef7b97d';
+export const FACTORY_ADDRESS = '0x3c34473c1175a7b4eaa697356d6a6dc2618d273f';
+export const ROUTER_ADDRESS = '0x027bc3a29990aaed16f65a08c8cc3a92e0afbaa4';
 
 export const LP_TOKEN_NAME = 'Swap-LP-Token';
 export const LP_TOKEN_SYMBOL = 'SWAP-LP';
