@@ -9,6 +9,7 @@ import CoinbaseWalletIcon from '../../assets/images/coinbaseWalletIcon.svg';
 // import FortmaticIcon from '../../assets/images/fortmaticIcon.png';
 // import PortisIcon from '../../assets/images/portisIcon.png';
 import WalletConnectIcon from '../../assets/images/walletConnectIcon.svg';
+// import CertikLogo from '../../assets/images/certik.png';
 import {
   // fortmatic,
   injected,

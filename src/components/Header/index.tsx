@@ -11,7 +11,7 @@ import Logo from '../../assets/svg/logo.svg';
 import { useActiveWeb3React } from '../../hooks';
 // import { useDarkModeManager } from '../../state/user/hooks';
 import { useETHBalances } from '../../state/wallet/hooks';
-
+import CertikLogo from '../../assets/images/certik.png';
 import { LightCard } from '../Card';
 // import { Moon, Sun } from 'react-feather';
 import Row, { RowFixed } from '../Row';
@@ -301,7 +301,12 @@ export default function Header() {
           {t('gas')}
         </StyledNavLink> */}
       </HeaderLinks>
-
+      
+      <Title href="https://www.certik.com/projects/rareswap" target="blank">
+        <Icon>
+          <img src={CertikLogo} alt="Certik" width="150px"/>
+        </Icon>
+      </Title>
       <HeaderControls>
         <HeaderElement>
           <HideSmall>
